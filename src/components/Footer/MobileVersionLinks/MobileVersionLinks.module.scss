@@ -1,0 +1,13 @@
+.containerLinks {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+
+  .links {
+    cursor: pointer;
+
+    >img {
+      display: block;
+    }
+  }
+}

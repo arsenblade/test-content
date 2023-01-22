@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  column-gap: 64px;
+
+  .cell {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+
+    >a {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #0B1524;
+
+      &:hover {
+        color: #0762c8;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.socialList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  column-gap: 16px;
+
+  .socialLink {
+    display: block;
+    cursor: pointer;
+
+    >svg {
+      fill: #8F949A;
+    }
+  }
+
+  .socialLink:hover >svg {
+    fill: #0762c8;
+  } 
+}

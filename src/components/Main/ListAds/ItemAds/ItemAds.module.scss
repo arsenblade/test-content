@@ -1,0 +1,94 @@
+.itemAds {
+  display: flex;
+  padding: 20px 22px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+
+  >img {
+    margin-right: 20px;
+  }
+
+  .truckingInfo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    margin-right: auto;
+
+    .truckingTitle {
+      margin: 0;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 28px;
+      color: #0B1524;
+    }
+
+    .truckingLocation {
+      display: flex;
+      column-gap: 6px;
+
+      .truckingLocationCity {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      .truckingLocationDate {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+
+    .truckingTypes {
+      display: flex;
+      column-gap: 6px;
+
+      >span {
+        display: flex;
+        column-gap: 6px;
+        align-items: center;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      .truckingListTypes {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        column-gap: 3px;
+
+        >li {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          color: rgba(11, 21, 36, 0.66);
+        }
+
+        >li:last-child {
+          cursor: pointer;
+          color: #0762c8;
+        }
+      }
+    }
+  }
+
+  .truckingPrice {
+    display: flex;
+    justify-content: space-between;
+    width: 224px;
+    padding: 6px 12px;
+    background: #F2F3F4;
+    border-radius: 8px;
+    align-self: flex-start;
+
+    >span {
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .truckingPriceValue {
+      font-weight: 600;
+    }
+  }
+}
