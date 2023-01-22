@@ -64,7 +64,7 @@ class ListAds extends Component<IListAds, {startAds: number, limitAds: number, v
   }
 
   render() {
-    if(this.props.ads.ads.length === 0) {
+    if(this.props.ads.loading === false && this.props.ads.ads.length === 0) {
       return <h2 className={styles.noAdsTitle}>Объявлений нет</h2>
     }
 
